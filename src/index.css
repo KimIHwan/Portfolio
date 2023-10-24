@@ -1,13 +1,29 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: DNFForgedBlade;
+  font-size: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 폰트 굵기 별 추가*/
+@font-face{ 
+  font-family: 'DNFForgedBlade';
+  src: url('./fonts/DNFForgedBlade-Light.otf') format('truetype');
+  font-weight: 100;
+}
+@font-face{ 
+  font-family: 'DNFForgedBlade';
+  src: url('./fonts/DNFForgedBlade-Medium.otf') format('truetype');
+  font-weight: 400;
+}
+@font-face{ 
+  font-family: 'DNFForgedBlade';
+  src: url('./fonts/DNFForgedBlade-Bold.otf') format('truetype');
+  font-weight: 700;
+}
+
+
