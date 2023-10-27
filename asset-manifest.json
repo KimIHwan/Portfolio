@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6bdac59a.css",
+    "main.css": "/Portfolio/static/css/main.a6014ab0.css",
     "main.js": "/Portfolio/static/js/main.b15f29f1.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DNFForgedBlade-Bold.otf": "/Portfolio/static/media/DNFForgedBlade-Bold.060f612fc2116ed1b6f0.otf",
@@ -12,12 +12,12 @@
     "static/media/wave.png": "/Portfolio/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.6bdac59a.css.map": "/Portfolio/static/css/main.6bdac59a.css.map",
+    "main.a6014ab0.css.map": "/Portfolio/static/css/main.a6014ab0.css.map",
     "main.b15f29f1.js.map": "/Portfolio/static/js/main.b15f29f1.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bdac59a.css",
+    "static/css/main.a6014ab0.css",
     "static/js/main.b15f29f1.js"
   ]
 }
