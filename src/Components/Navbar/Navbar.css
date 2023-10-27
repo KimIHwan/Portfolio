@@ -43,3 +43,10 @@
     cursor: pointer;
     color: var(--yellow2);
 }
+
+/* 화면이 작을 때 메뉴 안보이게*/
+@media screen and (max-width: 480px) {
+    .n-list{
+        display: none;
+    }
+}

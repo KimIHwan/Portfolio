@@ -1,6 +1,6 @@
 .intro{
     display: flex;
-    height: 77vh;
+    height: 70vh;
     margin-top: 6rem;
 }
 
@@ -23,12 +23,6 @@
 }
 
 .i-name>:nth-child(2){
-    color:  orange;
-    font-weight: bold;
-    font-size: 3rem;
-}
-
-.i-name>:nth-child(3){
     font-weight: 100;
     font-size: 14px;
     color: gray;
@@ -37,4 +31,13 @@
 
 .i-right{
     flex: 1;
+}
+
+/* 화면이 작을 때 세로로 정렬 */
+
+@media screen and (max-width: 480px) {
+    .intro{
+        flex-direction: column;
+    }
+    
 }
