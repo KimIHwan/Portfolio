@@ -1,5 +1,6 @@
 /* 상단바 */
 .n-wrapper{
+    z-index: 1000000;
     height: 10vh;
     display: flex;
     justify-content: space-between;

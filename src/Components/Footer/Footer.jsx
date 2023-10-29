@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="f-content">
             <span>김이환</span>
             <div className="f-icon">
-                <Github color='white' size='3rem'/>
+                <a href='https://github.com/KimIHwan'><Github color='white' size='3rem'/></a>
             </div>
         </div>
     </div>
