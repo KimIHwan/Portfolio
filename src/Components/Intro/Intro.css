@@ -4,6 +4,10 @@
     margin-top: 6rem;
 }
 
+.typeit{
+    height: 15rem;
+}
+
 .i-left{
     display: flex;
     position: relative;
@@ -19,7 +23,7 @@
 .i-name>:nth-child(1){
     color: white;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .i-name>:nth-child(2){
@@ -27,11 +31,15 @@
     font-size: 14px;
     color: gray;
     margin-top: 10px;
+    position: relative; 
 }
 
 .i-right{
     flex: 1;
+    display: flex;
 }
+
+
 
 /* 화면이 작을 때 세로로 정렬 */
 
@@ -39,5 +47,22 @@
     .intro{
         flex-direction: column;
     }
-    
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+        width: 3rem;
+        height: 3rem;
+    }
 }
+
+/*이미지 회전*/
+
+.img {animation: rotate_image 18s linear infinite;transform-origin: 50% 50%;}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+

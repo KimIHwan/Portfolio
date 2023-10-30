@@ -42,8 +42,8 @@ const Skills = () => {
               transition={transition}
               style={{left: '46rem'}}>
               <Card
-                heading = {'Certification'}
-                detail = {'정보처리기사'}
+                heading = {'Certificate'}
+                detail = {'정보처리기사\n(2022/11)'}
               />
             </motion.div>
         </div>

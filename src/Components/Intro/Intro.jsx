@@ -1,18 +1,20 @@
 import React from 'react'
 import TypeIt from "typeit-react"
 import './Intro.css'
+import title from '../../img/itsme.png'
 
 const Intro = () => {
   return (
     <div className='intro'>
         <div className="i-left">
             <div className="i-name">
-                <span>
-                    <TypeIt options={{
+                <span className="typeit" >
+                    <TypeIt 
+                        options={{
                         strings: ["안녕하세요!<br/> <font color ='orange'>김이환 </font> 입니다!!!!!"],
                         speed: 150,
-                        loop: false,
-                        // loopDelay: [2500],
+                        loop: true,
+                        loopDelay: [2500],
                         waitUntilVisible: true,
                     }}/>
                 </span>
@@ -23,7 +25,7 @@ const Intro = () => {
 
         </div>
         <div className="i-right">
-            오른쪽
+            <img className='img' src={title} alt='girin'></img>
         </div>
     </div>
   )
