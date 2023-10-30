@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a6014ab0.css",
-    "main.js": "/Portfolio/static/js/main.b15f29f1.js",
+    "main.css": "/Portfolio/static/css/main.5f4d1bc3.css",
+    "main.js": "/Portfolio/static/js/main.8ce2525e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DNFForgedBlade-Bold.otf": "/Portfolio/static/media/DNFForgedBlade-Bold.060f612fc2116ed1b6f0.otf",
     "static/media/DNFForgedBlade-Medium.otf": "/Portfolio/static/media/DNFForgedBlade-Medium.d4497caf07150c7e5088.otf",
@@ -9,15 +9,15 @@
     "static/media/ForestSeven.PNG": "/Portfolio/static/media/ForestSeven.a2684f1a2a816c9f0b08.PNG",
     "static/media/GIRIN.png": "/Portfolio/static/media/GIRIN.ebf1d65d3c01874da76e.png",
     "static/media/dongdongstick.PNG": "/Portfolio/static/media/dongdongstick.31ba0e4638d1ddf361e0.PNG",
+    "static/media/itsme.png": "/Portfolio/static/media/itsme.02bba33093569d19c86a.png",
     "static/media/wave.png": "/Portfolio/static/media/wave.fdfef4069ad90f610990.png",
-    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.a6014ab0.css.map": "/Portfolio/static/css/main.a6014ab0.css.map",
-    "main.b15f29f1.js.map": "/Portfolio/static/js/main.b15f29f1.js.map",
+    "main.5f4d1bc3.css.map": "/Portfolio/static/css/main.5f4d1bc3.css.map",
+    "main.8ce2525e.js.map": "/Portfolio/static/js/main.8ce2525e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6014ab0.css",
-    "static/js/main.b15f29f1.js"
+    "static/css/main.5f4d1bc3.css",
+    "static/js/main.8ce2525e.js"
   ]
 }
