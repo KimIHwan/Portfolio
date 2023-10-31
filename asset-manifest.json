@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.97c7fa26.css",
-    "main.js": "/Portfolio/static/js/main.001da176.js",
+    "main.css": "/Portfolio/static/css/main.16836a2a.css",
+    "main.js": "/Portfolio/static/js/main.3bf1f0bd.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DNFForgedBlade-Bold.otf": "/Portfolio/static/media/DNFForgedBlade-Bold.060f612fc2116ed1b6f0.otf",
     "static/media/DNFForgedBlade-Medium.otf": "/Portfolio/static/media/DNFForgedBlade-Medium.d4497caf07150c7e5088.otf",
@@ -10,14 +10,15 @@
     "static/media/GIRIN.png": "/Portfolio/static/media/GIRIN.ebf1d65d3c01874da76e.png",
     "static/media/dongdongstick.PNG": "/Portfolio/static/media/dongdongstick.31ba0e4638d1ddf361e0.PNG",
     "static/media/itsme.png": "/Portfolio/static/media/itsme.02bba33093569d19c86a.png",
+    "static/media/portfolio.PNG": "/Portfolio/static/media/portfolio.ee9413b918db1dd0f874.PNG",
     "static/media/wave.png": "/Portfolio/static/media/wave.fdfef4069ad90f610990.png",
     "index.html": "/Portfolio/index.html",
-    "main.97c7fa26.css.map": "/Portfolio/static/css/main.97c7fa26.css.map",
-    "main.001da176.js.map": "/Portfolio/static/js/main.001da176.js.map",
+    "main.16836a2a.css.map": "/Portfolio/static/css/main.16836a2a.css.map",
+    "main.3bf1f0bd.js.map": "/Portfolio/static/js/main.3bf1f0bd.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97c7fa26.css",
-    "static/js/main.001da176.js"
+    "static/css/main.16836a2a.css",
+    "static/js/main.3bf1f0bd.js"
   ]
 }
