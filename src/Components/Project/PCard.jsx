@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import './PCard.css'
 import ReactCardFlip from 'react-card-flip'
+import { BsFillArrowLeftSquareFill } from "react-icons/bs"
+
 
 const PCard = ({proj}) => {
     const [isFlipped, setIsFlipped] = useState(false)
@@ -12,11 +14,13 @@ const PCard = ({proj}) => {
   return (
     <div className="projects-item">
         <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped}>
-            <div className="Pcard" onClick={flipCard}>
+            <div className="Pcard">
                 <img src={proj.img} alt='' />
                 <span>{proj.review}</span>
+                <button className='more' onClick={flipCard}>상세 보기</button>
             </div>
-            <div className='Pcard card-back' onClick={flipCard}>
+            <div className='Pcard card-back'>
+                <BsFillArrowLeftSquareFill className='back' onClick={flipCard}/>
                 <pre>{proj.info}</pre>
                 {proj.code ? 
                     <div className="f-icon">
@@ -25,11 +29,7 @@ const PCard = ({proj}) => {
                         :null 
                         // 깃허브 링크가 없을 경우
                 }
-
             </div>
-        
-        
-        
         </ReactCardFlip>        
     </div>
   )

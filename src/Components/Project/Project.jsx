@@ -33,7 +33,7 @@ const Project = () => {
   return (
     <div className='p-wrapper' id='Project'>
         <div className='p-heading'>
-          <span>프로젝트</span>
+          <span>Project</span>
         </div>
         {/* 내용 */}
         <Swiper

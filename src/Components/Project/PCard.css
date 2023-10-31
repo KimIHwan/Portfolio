@@ -45,10 +45,43 @@
 @media screen and (max-width: 480px){
     .Pcard{
         width: 70%;
-
     }
     .Pcard>img{
         width: 12rem;
         height: 6.5rem;
     }
+    .card-back{
+        width: 70%;
+        font-size: 1rem;
+    }
+}
+
+
+/* 상세보기 버튼 */
+.more {
+    border: none;
+    background: orange;
+    font-family: DNFForgedBlade;
+    color: black;
+    border-radius: 10px;
+}
+
+/* 버튼 호버 이펙트 */
+.more:hover{
+    cursor: pointer;
+}
+
+
+/* 상세 내용 폰트 */
+pre{
+    font-family: DNFForgedBlade;
+}
+
+.back{
+    margin-left:-100%;
+    margin-top: -10%
+}
+
+.back:hover{
+    cursor: pointer;
 }

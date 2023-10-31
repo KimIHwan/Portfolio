@@ -16,7 +16,7 @@
 }
 
 /* 프로젝트  */
-.project{
+/* .project{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,10 +30,10 @@
     border-radius: 20px;
     position: relative;
     gap: 1rem;
-}
+} */
 
 /* 프로젝트 상세 */
-.pdesc{
+/* .pdesc{
     width: 36rem;
     height: 26rem;
     background: rgb(211, 162, 0, 0.7);
@@ -45,9 +45,9 @@
     gap: 1rem;
     border-radius: 10px;
     word-break:break-all;
-}
+} */
 
-.project>img{
+/* .project>img{
     width: 32rem;
     height: 18rem;
     border-radius: 10%;
@@ -56,7 +56,7 @@
 .project>span{
     color: white;
 
-}
+} */
 
 .p-wrapper .swiper{
     width: 100%;
@@ -75,10 +75,6 @@
     .p-wrapper{
         padding: 0;
     }
-    .project>img{
-        width: 12rem;
-        height: 6.5rem;
-    }
 }
 
 /* pagination 버튼 색 */
@@ -86,23 +82,4 @@
 	background-color: #ffffff !important;
 }
 
-/* 상세보기 버튼 */
-.more {
-    border: none;
-    background: orange;
-    font-family: DNFForgedBlade;
-    color: black;
-    border-radius: 10px;
-}
 
-/* 버튼 호버 이펙트 */
-.more:hover{
-    cursor: pointer;
-}
-
-
-/* 상세 내용 폰트 */
-pre{
-    font-family: DNFForgedBlade;
-
-}
