@@ -36,7 +36,6 @@ const Project = () => {
           <span>프로젝트</span>
         </div>
         {/* 내용 */}
-
         <Swiper
           modules={[Pagination]} //페이저 버튼
           slidesPerView={1} // 한 슬라이드 당 보여질 개수
