@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Project.css'
 import GIRIN from '../../img/GIRIN.png'
 import ForestSeven from '../../img/ForestSeven.PNG'
@@ -7,12 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from 'swiper/modules';
 import 'swiper/css/pagination'
 import 'swiper/css'
-import Github from '@iconscout/react-unicons/icons/uil-github'
-
+import PCard from './PCard'
 
 const Project = () => {
-  //상세 페이지 열고 닫기
-  let [desc, setDesc] = useState(false)
 
   const clients =[
     {
@@ -46,30 +43,10 @@ const Project = () => {
           pagination={{clickable: true}} //버튼 클릭 가능
           loop={true} // 마지막 슬라이드에서 슬라이드하면 첫번째로
         >
-          {clients.map((client, index, code, info) => {
+          {clients.map((client, index) => {
             return(
               <SwiperSlide key={index}>
-                <div
-                  className="project">
-                  <img src={client.img} alt='' />
-                  <span>{client.review}</span>
-                  <button className='more' onClick={()=> {setDesc(!desc)}}>상세 보기</button>
-                  {/* 버튼 누르면 상세 정보 & 상세 창 누르면 사라짐*/}
-                  {desc && 
-                    <div className='pdesc'
-                      onClick={()=> {setDesc(!desc)}}> 
-                      <pre>{client.info}</pre>
-                      {client.code ? 
-                        <div className="f-icon">
-                          소스코드 : <a href={client.code}><Github color='white' size='2rem'/></a>
-                        </div> :
-                          null 
-                        // 깃허브 링크가 없을 경우
-                      }
-                    </div>
-                  }
-                  
-                </div>
+                <PCard proj={client} />
               </SwiperSlide>
             )
           })}
