@@ -20,7 +20,7 @@ const PCard = ({proj}) => {
                 <button className='more' onClick={flipCard}>상세 보기</button>
             </div>
             <div className='Pcard card-back'>
-                <BsFillArrowLeftSquareFill className='back' onClick={flipCard}/>
+                <button className='back'onClick={flipCard}><BsFillArrowLeftSquareFill className='b'/></button>
                 <pre>{proj.info}</pre>
                 {proj.code ? 
                     <div className="f-icon">

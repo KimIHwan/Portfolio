@@ -21,18 +21,18 @@ const Skills = () => {
               style={{left: '10rem'}}>
               <Card
                 heading = {'Language'}
-                detail = {'JAVA, JavaScript, Python, C, C#, Kotlin, HTML'}
+                detail = {'JavaScript, Java, Python, C, C#, Kotlin, HTML'}
               />
             </motion.div>
-            {/* 그 외 */}
+            {/* DB */}
             <motion.div 
               whileInView={{left: '28rem'}}
               initial={{left: '25%'}}
               transition={transition}
               style={{left: '28rem'}}>
               <Card
-                heading = {'etc'}
-                detail = {'MySQL, MongoDB,'}
+                heading = {'DB'}
+                detail = {'MySQL, MongoDB'}
               />
             </motion.div>
             {/* 자격증 */}
@@ -43,7 +43,18 @@ const Skills = () => {
               style={{left: '46rem'}}>
               <Card
                 heading = {'Certificate'}
-                detail = {'정보처리기사\n(2022/11)'}
+                detail = {'정보처리기사(2022/11 취득)'}
+              />
+            </motion.div>
+            {/* 그 외 */}
+            <motion.div
+              whileInView={{left: '64rem'}}
+              initial={{left: '25%'}}
+              transition={transition}
+              style={{left: '64rem'}}>
+              <Card
+                heading = {'Etc.'}
+                detail = {'Photoshop, Excel, PowerPoint, Word'}
               />
             </motion.div>
         </div>

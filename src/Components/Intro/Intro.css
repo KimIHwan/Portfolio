@@ -32,6 +32,7 @@
     color: gray;
     margin-top: 10px;
     position: relative; 
+    line-height: 2rem;
 }
 
 .i-right{

@@ -54,6 +54,9 @@
         width: 70%;
         font-size: 1rem;
     }
+    .more{
+        display: none;
+    }
 }
 
 
@@ -75,11 +78,15 @@
 /* 상세 내용 폰트 */
 pre{
     font-family: DNFForgedBlade;
+    line-height: 170%;
+    font-size: 1rem;
+    font-weight: lighter;
 }
 
 .back{
     margin-left:-100%;
-    margin-top: -10%
+    border: none;
+    background: none;
 }
 
 .back:hover{
