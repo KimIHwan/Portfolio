@@ -1,18 +1,27 @@
 import React from 'react'
 import './Project.css'
+import Eighteen from '../../img/eighteen.PNG'
 import GIRIN from '../../img/GIRIN.png'
 import ForestSeven from '../../img/ForestSeven.PNG'
 import Stick from '../../img/dongdongstick.PNG'
 import Portfolio from '../../img/portfolio.PNG'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Pagination, Navigation } from 'swiper/modules'
 import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 import 'swiper/css'
 import PCard from './PCard'
 
 const Project = () => {
 
+  
   const clients =[
+    {
+      img: Eighteen,
+      review: "Eighteen",
+      code: "https://github.com/hwan-2/eighteen",
+      info: "Next.js로 만든 노래방 api를 활용하여 번호 검색 및 북마크가 가능한 웹사이트 입니다.\n구성요소 : Next.js + MongoDB\n제작 기간: 2023.11~2024.01\n\nNextAuth를 이용한 로그인과 회원가입 기능이 구현되어 있으며, 노래방 api를 사용하여 \n국내 노래방에 등록되어 있는 노래들을 제목 또는 가수로 검색을 할 수 있습니다.\n검색한 결과에서 원하는 노래를 북마크 할 수 있으며, 마이페이지에서 확인 가능합니다.\nDB는 MongoDB를 사용하였으며, DB에 회원 정보와 해당 회원이 북마크한 노래 목록이\n따로 저장됩니다.\n야간 모드 기능도 존재하며, 구글 로그인도 가능합니다."
+    },
     {
       img: GIRIN,
       review:"Game Information & Review In Node.js",
@@ -44,10 +53,14 @@ const Project = () => {
         </div>
         {/* 내용 */}
         <Swiper
-          modules={[Pagination]} //페이저 버튼
+          modules={[Pagination, Navigation]} //페이저 버튼, <>버튼
           slidesPerView={1} // 한 슬라이드 당 보여질 개수
-          pagination={{clickable: true}} //버튼 클릭 가능
+          navigation={true} // <> 버튼
+          pagination={{clickable: true}} //페이저 버튼 클릭 가능
           loop={true} // 마지막 슬라이드에서 슬라이드하면 첫번째로
+          style={{
+            "--swiper-navigation-color": "#FFFFFF",
+          }}
         >
           {clients.map((client, index) => {
             return(
