@@ -3,6 +3,7 @@ import Github from '@iconscout/react-unicons/icons/uil-github'
 import './PCard.css'
 import ReactCardFlip from 'react-card-flip'
 import { BsFillArrowLeftSquareFill } from "react-icons/bs"
+import { SiVercel } from "react-icons/si";
 
 
 const PCard = ({proj}) => {
@@ -22,13 +23,22 @@ const PCard = ({proj}) => {
             <div className='Pcard card-back'>
                 <button className='back'onClick={flipCard}><BsFillArrowLeftSquareFill className='b'/></button>
                 <pre>{proj.info}</pre>
-                {proj.code ? 
-                    <div className="f-icon">
-                        소스코드 : <a href={proj.code}><Github color='white' size='2rem'/></a>
-                    </div>
-                        :null 
-                        // 깃허브 링크가 없을 경우
-                }
+                <div className='cLink'>  
+                    {proj.code ? 
+                        <div className="f-icon">
+                            소스코드 : <a href={proj.code}><Github color='white' size='2rem'/></a>
+                        </div>
+                            :null 
+                            // 깃허브 링크가 없을 경우
+                    }
+                    {proj.url ?
+                        <div className="f-icon">
+                            배포 : <a href={proj.url}><SiVercel color='white' size='2rem'/></a>
+                        </div>
+                            :null
+                    }
+                </div>
+                
             </div>
         </ReactCardFlip>        
     </div>

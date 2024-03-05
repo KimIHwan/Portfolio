@@ -20,6 +20,7 @@ const Project = () => {
       img: Eighteen,
       review: "Eighteen",
       code: "https://github.com/hwan-2/eighteen",
+      url:"https://eighteen-three.vercel.app/",
       info: "Next.js로 만든 노래방 api를 활용하여 번호 검색 및 북마크가 가능한 웹사이트 입니다.\n구성요소 : Next.js + MongoDB\n제작 기간: 2023.11~2024.01\n\nNextAuth를 이용한 로그인과 회원가입 기능이 구현되어 있으며, 노래방 api를 사용하여 \n국내 노래방에 등록되어 있는 노래들을 제목 또는 가수로 검색을 할 수 있습니다.\n검색한 결과에서 원하는 노래를 북마크 할 수 있으며, 마이페이지에서 확인 가능합니다.\nDB는 MongoDB를 사용하였으며, DB에 회원 정보와 해당 회원이 북마크한 노래 목록이\n따로 저장됩니다.\n야간 모드 기능도 존재하며, 구글 로그인도 가능합니다."
     },
     {
@@ -43,7 +44,7 @@ const Project = () => {
       img: Portfolio,
       review:"김이환의 Portfolio",
       code: "https://github.com/KimIHWan/Portfolio",
-      info: "구성요소 : React.js\n사용한 툴 : Visual Studio Code\n제작 기간 : 2023.10\n\nReact로 제작한 개인 Portfolio 웹 사이트 입니다.\n개인적인 React 공부를 위해 React로 제작하였습니다.\n배포는 Github Page로 이뤄지고 있으며, 지속적으로 추가 및 수정해나가고 있습니다.\n소스 코드 열람 시 master branch로 확인 가능합니다."
+      info: "구성요소 : React.js\n사용한 툴 : Visual Studio Code\n제작 기간 : 2023.10~\n\nReact로 제작한 개인 Portfolio 웹 사이트 입니다.\n개인적인 React 공부를 위해 React로 제작하였습니다.\n배포는 Github Page로 이뤄지고 있으며, 지속적으로 추가 및 수정해나가고 있습니다.\n소스 코드 열람 시 master branch로 확인 가능합니다."
     }
   ]
   return (

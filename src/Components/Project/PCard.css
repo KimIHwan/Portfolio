@@ -40,6 +40,15 @@
     color: white;
 }
 
+.cLink{
+    display: flex;
+    flex-direction: row;
+}
+
+.f-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 /* 화면이 작을 때*/
 @media screen and (max-width: 480px){
