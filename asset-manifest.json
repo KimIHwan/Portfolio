@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.38d096c7.css",
-    "main.js": "/Portfolio/static/js/main.4c9cdae6.js",
+    "main.css": "/Portfolio/static/css/main.1c83888d.css",
+    "main.js": "/Portfolio/static/js/main.d339fe3c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DNFForgedBlade-Bold.otf": "/Portfolio/static/media/DNFForgedBlade-Bold.060f612fc2116ed1b6f0.otf",
     "static/media/DNFForgedBlade-Medium.otf": "/Portfolio/static/media/DNFForgedBlade-Medium.d4497caf07150c7e5088.otf",
@@ -10,16 +10,17 @@
     "static/media/GIRIN.png": "/Portfolio/static/media/GIRIN.ebf1d65d3c01874da76e.png",
     "static/media/dongdongstick.PNG": "/Portfolio/static/media/dongdongstick.31ba0e4638d1ddf361e0.PNG",
     "static/media/itsme.png": "/Portfolio/static/media/itsme.02bba33093569d19c86a.png",
+    "static/media/mahjongCal.png": "/Portfolio/static/media/mahjongCal.14004d5e47df79a44b9e.png",
     "static/media/portfolio.PNG": "/Portfolio/static/media/portfolio.ee9413b918db1dd0f874.PNG",
     "static/media/eighteen.PNG": "/Portfolio/static/media/eighteen.199088ca08c7cad4d081.PNG",
     "static/media/wave.png": "/Portfolio/static/media/wave.fdfef4069ad90f610990.png",
     "index.html": "/Portfolio/index.html",
-    "main.38d096c7.css.map": "/Portfolio/static/css/main.38d096c7.css.map",
-    "main.4c9cdae6.js.map": "/Portfolio/static/js/main.4c9cdae6.js.map",
+    "main.1c83888d.css.map": "/Portfolio/static/css/main.1c83888d.css.map",
+    "main.d339fe3c.js.map": "/Portfolio/static/js/main.d339fe3c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38d096c7.css",
-    "static/js/main.4c9cdae6.js"
+    "static/css/main.1c83888d.css",
+    "static/js/main.d339fe3c.js"
   ]
 }
