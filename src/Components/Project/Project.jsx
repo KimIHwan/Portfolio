@@ -20,14 +20,15 @@ const Project = () => {
     {
       img: MahjongCal,
       review:"리치마작 계산기",
-      info: "구성요소 : React Native\n제작 기간 : 2024.02~\n\nReact Native로 제작한 리치마작 계산기 어플입니다.\n리치마작의 점수 계산을 쉽고 편하게 이용할 수 있습니다.\n심플하고 깔끔한 UI와 직접 만든 계산 알고리즘이 특징이며,\n현재 구글 플레이 출시를 위해 비공개 테스트중입니다."
+      urlGoogle:"https://play.google.com/store/apps/details?id=com.hwansquare.MahjongCal",
+      info: "구성요소 : React Native\n제작 기간 : 2024.02~\n프로젝트 참가 인원 : 2인\n\nReact Native로 제작한 리치마작 계산기 어플입니다.\n리치마작의 점수 계산을 쉽고 편하게 이용할 수 있습니다.\n심플하고 깔끔한 UI와 직접 만든 계산 알고리즘이 특징이며,\n구글 플레이에 정식 출시 되었습니다."
     },
     {
       img: Eighteen,
       review: "Eighteen",
       code: "https://github.com/hwan-2/eighteen",
       url:"https://eighteen-three.vercel.app/",
-      info: "Next.js로 만든 노래방 api를 활용하여 번호 검색 및 북마크가 가능한 웹사이트 입니다.\n구성요소 : Next.js + MongoDB\n제작 기간: 2023.11~2024.01\n\nNextAuth를 이용한 로그인과 회원가입 기능이 구현되어 있으며, 노래방 api를 사용하여 \n국내 노래방에 등록되어 있는 노래들을 제목 또는 가수로 검색을 할 수 있습니다.\n검색한 결과에서 원하는 노래를 북마크 할 수 있으며, 마이페이지에서 확인 가능합니다.\nDB는 MongoDB를 사용하였으며, DB에 회원 정보와 해당 회원이 북마크한 노래 목록이\n따로 저장됩니다.\n야간 모드 기능도 존재하며, 구글 로그인도 가능합니다."
+      info: "Next.js로 만든 노래방 api를 활용하여 번호 검색 및 북마크가 가능한 웹사이트 입니다.\n구성요소 : Next.js + MongoDB\n제작 기간: 2023.11~2024.01\n프로젝트 참가 인원 : 2인\n\nNextAuth를 이용한 로그인과 회원가입 기능이 구현되어 있으며, 노래방 api를 사용하여 \n국내 노래방에 등록되어 있는 노래들을 제목 또는 가수로 검색을 할 수 있습니다.\n검색한 결과에서 원하는 노래를 북마크 할 수 있으며, 마이페이지에서 확인 가능합니다.\nDB는 MongoDB를 사용하였으며, DB에 회원 정보와 해당 회원이 북마크한 노래 목록이\n따로 저장됩니다.\n야간 모드 기능도 존재하며, 구글 로그인도 가능합니다."
     },
     {
       img: GIRIN,

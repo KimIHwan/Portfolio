@@ -5,6 +5,7 @@ import ReactCardFlip from 'react-card-flip'
 import { BsFillArrowLeftSquareFill } from "react-icons/bs"
 import { SiVercel } from "react-icons/si";
 import { TiCancel } from "react-icons/ti";
+import { FaGooglePlay } from "react-icons/fa";
 
 const PCard = ({proj}) => {
     const [isFlipped, setIsFlipped] = useState(false)
@@ -45,6 +46,12 @@ const PCard = ({proj}) => {
                                 배포 : <a href={proj.url}><SiVercel color='white' size='2rem'/></a>
                             </div>
                                 :null
+                        }
+                        {proj.urlGoogle ?
+                            <div className="f-icon">
+                                배포 : <a href={proj.urlGoogle}><FaGooglePlay color='white' size='2rem'/></a>
+                            </div>
+                            : null
                         }
                     </div>
                 </div>
